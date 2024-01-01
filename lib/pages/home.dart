@@ -88,7 +88,7 @@ class _TODOLISTState extends State<TODOLIST> {
       title: Text(todo.text,
         style: GoogleFonts.getFont('Montserrat',
             textStyle: TextStyle(
-                color: Colors.white,
+                color: Colors.black,
                 fontSize: 19,
                 fontWeight: FontWeight.w500),
                 decoration: todo.isCompleted ? TextDecoration.lineThrough : TextDecoration.none,
